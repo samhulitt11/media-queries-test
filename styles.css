@@ -1,0 +1,15 @@
+#lion_img{
+ background-image: url(img/big_lion.jpg);
+ background-size: cover;
+ height: 400px;
+ width: 400px;
+ margin:auto;
+}
+
+body{
+    background-color: yellow;
+}
+
+@media only screen and (max-width: 600px) {
+
+  }
