@@ -1,7 +1,7 @@
 ﻿$ScannedNumber = Read-Host -Prompt "Scan the Number"
 
-$Username = "testingservice2022@gmail.com"
-$Password = "testing1!"
+$Username = ""
+$Password = ""
  
 $SecurePassword = $Password | ConvertTo-SecureString -AsPlainText -Force
 $Credentials = New-Object System.Management.Automation.PSCredential -ArgumentList $Username, $SecurePassword
